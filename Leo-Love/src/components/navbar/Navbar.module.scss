@@ -1,0 +1,54 @@
+@use "../../styles/variables.scss";
+
+.navBar,
+.left {
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	@media (max-width: 800px) {
+		flex-direction: column;
+	}
+}
+
+.navBar {
+	border-bottom: 6.5px variables.$color-lightblue Solid;
+}
+.left li {
+	font-family: Inter;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	padding: 5px 10px;
+	border-left: 1px variables.$color-lightblue Solid;
+	&:hover {
+		background-color: #2c3a6fc1;
+		color: variables.$color-white;
+		transition: 0.8s;
+		cursor: pointer;
+	}
+	&:nth-child(1) {
+		border-left: none;
+	}
+	@media (max-width: 800px) {
+		border: none;
+		width: 20%;
+	}
+	a {
+		text-decoration: none;
+		color: variables.$color-lightblue;
+	}
+}
+h3 {
+	color: variables.$color-black;
+	@media (max-width: 800px) {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+}
+span {
+	color: variables.$color-lightblue;
+}

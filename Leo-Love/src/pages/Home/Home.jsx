@@ -1,10 +1,9 @@
-
-import style from './Home.module.scss';
-
+import { Header } from '../../components/Header/Header';
 
 
-export const Home =  ({children}) => {
+
+export const Home =  () => {
   return (
-    <h1>Her starter vores side</h1>
+    <Header></Header>
   );
 }
