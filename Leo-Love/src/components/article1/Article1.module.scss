@@ -1,0 +1,14 @@
+.article1 {
+	background-color: red;
+	height: 200px;
+	display: grid;
+	grid-template-columns: 1fr, 1fr;
+}
+.article1 img {
+	width: 50%;
+}
+div {
+	h2 {
+		background-color: green;
+	}
+}
