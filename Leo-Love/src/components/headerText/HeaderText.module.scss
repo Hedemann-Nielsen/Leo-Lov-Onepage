@@ -1,9 +1,9 @@
 @use "../../styles/variables.scss";
 
 .HeaderText {
-	position: relative;
-	padding-top: 10em;
-	left: 45em;
+	position: absolute;
+	top: 10em;
+	left: 30em;
 	width: fit-content;
 
 	@media (max-width: 768px) {
