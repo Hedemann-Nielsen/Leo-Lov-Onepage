@@ -29,13 +29,16 @@
 		color: variables.$color-white;
 		transition: 0.8s;
 		cursor: pointer;
-		width: 20%;
 	}
 	&:nth-child(1) {
 		border-left: none;
 	}
 	@media (max-width: 800px) {
 		border: none;
+		width: 20%;
+	}
+	a {
+		text-decoration: none;
 	}
 }
 h3 {
