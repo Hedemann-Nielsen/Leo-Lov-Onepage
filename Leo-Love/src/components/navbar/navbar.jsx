@@ -8,7 +8,7 @@ export const Navbar = (props) => {
           {props.data &&
             props.data.map((item, itemIndex) => (
               <li key={itemIndex}>
-                <a href={`#${item.toLowerCase()}`}>{item}</a>
+                <a href={`${item.toLowerCase()}`}>{item}</a>
               </li>
             ))}
         </ul>
