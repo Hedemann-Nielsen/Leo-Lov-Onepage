@@ -1,0 +1,24 @@
+@use "../../styles/variables.scss";
+
+.HeaderText {
+	position: relative;
+	padding-top: 10em;
+	left: 45em;
+	width: fit-content;
+
+	@media (max-width: 768px) {
+		display: none;
+	}
+}
+
+.title {
+	display: flex;
+}
+
+h1:nth-child(1) {
+	color: variables.$color-lightblue;
+}
+
+h1:nth-child(2) {
+	color: variables.$color-white;
+}
