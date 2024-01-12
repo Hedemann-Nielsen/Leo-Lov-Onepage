@@ -1,0 +1,19 @@
+.emplyees {
+	padding-top: 20px;
+	display: flex;
+	img {
+		width: 20%;
+		border: 1px solid black;
+		margin: 20px;
+		border-radius: 8px;
+		aspect-ratio: 1/1;
+		object-position: 100% 10%;
+		object-fit: cover;
+	}
+	.emplyeeInfo {
+		padding-top: 100px;
+		h2 {
+			text-align: left;
+		}
+	}
+}

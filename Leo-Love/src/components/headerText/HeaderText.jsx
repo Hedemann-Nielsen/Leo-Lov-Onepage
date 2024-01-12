@@ -1,4 +1,4 @@
-import style from './headerText.module.scss';
+import style from './HeaderText.module.scss';
 
 export const HeaderText = ({title, title2, subtitle}) => {
     return (
