@@ -9,8 +9,6 @@ import { Route, Routes } from "react-router-dom";
 
 import "./App.scss";
 
-import { Cards } from "./components/Cards.Module/Cards";
-
 const arrNavigation = ["Hjem", "Advokaterne", "Om LeoLove", "Kontakt"];
 
 function App() {
