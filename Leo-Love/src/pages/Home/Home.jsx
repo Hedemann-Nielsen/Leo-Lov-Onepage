@@ -27,7 +27,8 @@ export const Home = () => {
   ];
   return (
     <>
-      <Header></Header> <Cards cards={CardMaker} />
+      <Header></Header> 
+      <Cards cards={CardMaker} />
       <Main></Main>
     </>
   );

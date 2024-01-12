@@ -19,6 +19,7 @@ function App() {
       <Navbar data={arrNavigation}></Navbar>
       <Routes>
         <Route index element={<Home />} />
+        <Route path="/Hjem" element={<Home />} />
         <Route path="/advokaterne" element={<Advokaterne />} />
         <Route path="/Om LeoLove" element={<About />} />
         <Route path="/kontakt" element={<Kontakt />} />
