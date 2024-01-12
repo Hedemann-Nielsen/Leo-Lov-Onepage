@@ -3,7 +3,7 @@ import { Advokaterne } from "./pages/Advokaterne/Advokaterne";
 import { About } from "./pages/About/About";
 import { Kontakt } from "./pages/Kontakt/Kontakt";
 import { Fallback } from "./pages/Fallback/Fallback";
-import { Navbar } from "./components/navbar/navbar";
+import { Navbar } from "./components/Navbar/Navbar";
 import { Footer } from "./components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
 

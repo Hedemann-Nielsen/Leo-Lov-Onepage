@@ -1,6 +1,5 @@
-import { Navbar } from '../navbar/navbar';
-import { HeaderImg } from '../headerImg/HeaderImg';
-import { HeaderText } from '../headerText/HeaderText';
+import { HeaderImg } from '../HeaderImg/HeaderImg';
+import { HeaderText } from '../HeaderText/HeaderText';
 
 
 

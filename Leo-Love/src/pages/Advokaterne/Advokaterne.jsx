@@ -1,9 +1,8 @@
-
+import { EmployeeList } from "../../components/Employees/EmployeeList";
 
 export const Advokaterne =  () => {
   return (
-    <>
-<h1>Advokaterne side</h1>
-    </>
+<EmployeeList></EmployeeList>
   );
 }
+
